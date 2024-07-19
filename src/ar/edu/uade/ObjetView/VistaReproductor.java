@@ -1,4 +1,4 @@
-package ar.edu.uade.vista;
+package ar.edu.uade.ObjetView;
 
 import javax.swing.*;
 import java.awt.*;
@@ -53,9 +53,9 @@ public class VistaReproductor extends JFrame {
         return nombreUsuarioField.getText();
     }
 
-    public void setResultado(List<AudioView> audioViews) {
+    public void setResultado(List<ar.edu.uade.vista.AudioView> audioViews) {
         StringBuilder resultado = new StringBuilder();
-        for (AudioView audioView : audioViews) {
+        for (ar.edu.uade.vista.AudioView audioView : audioViews) {
             resultado.append("Nombre de usuario: ").append(audioView.getNombreUsuario()).append("\n");
             resultado.append("Nombre del audio: ").append(audioView.getNombreAudio()).append("\n");
             resultado.append("Tipo de audio: ").append(audioView.getTipoAudio()).append("\n");

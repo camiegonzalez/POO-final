@@ -5,6 +5,7 @@ import ar.edu.uade.vista.AudioView;
 import ar.edu.uade.vista.VistaReproductor;
 import ar.edu.uade.modelo.exceptions.UsuarioNoEncontradoException;
 
+import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.util.ArrayList;
